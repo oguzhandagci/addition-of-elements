@@ -1,0 +1,11 @@
+A = [1,2,2,1]
+B = set([1,2,2,1])
+
+def addition_function(sequence):
+	total = 0
+	for e in sequence:
+		total = total + e
+	return total
+
+print(addition_function(A))
+print(addition_function(B))
